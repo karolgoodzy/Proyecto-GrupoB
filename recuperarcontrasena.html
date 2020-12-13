@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Recuperar contraseña </title>
+    <link rel="stylesheet" href="estilo/mystyle.css" type="text/css">
+    <script src="cambiContrasena.js"></script>
+</head>
+<body>
+    <center>
+    <h1>Recuperar Contraseña</h1>
+    <form action="" method="POST" onsubmit="return cambiarContrasena();">
+        
+        
+        <table border="0">
+            <img src="soporte/recuperar.png" alt="Usuario" height="90" witdh="90">
+            <tr>
+                                      
+            <tr>
+                <td>Correo Electrónico: </td>
+                <td><input type="email" name="correo" id="correo" placeholder="Escriba su correo"/><br></td>
+            </tr>
+
+            <tr>
+                <td>Usuario:</td>
+                <td><input type="text" name="usuario" id="usuario" placeholder="usuario"/></td>
+            </tr>
+            <tr>
+                <td>Nueva Contraseña: </td>
+                <td><input type="password" name="nuevaClave" id="nuevaClave" placeholder="Nueva clave"/>
+                    <img src="soporte/show_pwd.PNG" alt="Ojito" width="20"  
+                    onmouseover="mostrarPassword();"
+                    onmouseout="ocultarPassword();"
+                    </td>            
+            </tr>
+            
+            <tr>
+                <td>Confirme Contraseña:</td>
+                <td><input type="password" name="confirme" id="confirme" placeholder="Confirme la contraseña"/>
+                    <img src="soporte/show_pwd copy.PNG" alt="Ojito2" width="20"  
+                    onmouseover="mostrarPassword2();"
+                    onmouseout="ocultarPassword2();"</td>
+                
+            </tr>
+            
+        </table>
+        <br>
+         <input type="submit" class="boton" name="iniciar" value="Aceptar"/>
+               
+        <a href="sesion.html"><input type="" class="boton" name="cancelar" value="cancelar"/></a>
+    </form>
+    </center>
+</body>
+</html>

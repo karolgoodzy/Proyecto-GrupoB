@@ -1,0 +1,16 @@
+body {background-color: #7c9aad;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #377ba8;
+    background-color: lightblue;
+}
+form {font-family: sans-serif;}
+.boton {text-align: center;
+        min-width: 150px;
+        background-color: rgb(41, 94, 94);
+        color: rgb(90, 196, 196);
+}
+.titulo {text-align: center;
+         font-size: 36pt;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crear o Actualizar Imágenes </title>
+    <link rel="stylesheet" href="estilo/mystyle.css" type="text/css">
+    <script src="autenticarInicio.js"></script>
+</head>
+<body>
+    <center>
+    <h1>Crear o Actualizar Imágenes</h1>
+    <form action="" method="POST" onsubmit="return actualizarCrear();">
+        
+        
+        <table border="0">
+          <tr> <td><img src="soporte/actualizar.png" alt="Usuario" height="90" witdh="90"></td> 
+          <td><img src="soporte/crear.png" alt="Usuario" height="90" witdh="90"></td>
+          </tr> 
+            <tr>
+                <td>Actualizar: 
+                <input type="radio" name="seleccion" id="Actualizar" /><br></td>
+                <td>Crear: 
+                <input type="radio" name="seleccion" id="Crear" /><br></td>
+            </tr>
+                       
+            <tr>
+                <td>Nombre Imagen: </td>
+                <td><input type="text" name="nameImage" id="nameImage" placeholder="Nombre de la Imagen"/><br></td>
+            </tr>
+            <tr>
+                <td>Nuevo Nombre: </td>
+                <td><input type="text" name="newname" id="newname" placeholder="Nuevo nombre de la Imagen"/><br></td>
+            </tr>
+            <tr>
+                <td>Usuario:</td>
+                <td><input type="text" name="usuario" id="usuario" placeholder="usuario"/></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password" name="contraseña" id="clave" placeholder="contraseña"/></td>
+            </tr>
+            <tr><td><input type="file" name="archivo" id="seleccionar"></td></tr>
+            <tr>
+                <td>Pública: 
+                <input type="radio" name="seleccion1" id="Publica" /><br></td>
+                <td>Privada: 
+                <input type="radio" name="seleccion1" id="Privada" /><br></td>
+            </tr>
+        </table>
+        <br>
+         <input type="submit" class="boton" name="iniciar" value="Aceptar"/>
+               
+        <a href="gestorImagen.html"><input type="" class="boton" name="cancelar" value="cancelar"/></a>
+    </form>
+    </center>
+</body>
+</html>
