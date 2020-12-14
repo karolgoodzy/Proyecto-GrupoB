@@ -8,12 +8,7 @@ function eliminarImagen(){
             document.getElementById("nameImage").focus();
             return false;
         } 
-        if (nuevonombre == ""){
-            alert("Debe el nuevo nombre de la imagen");
-            document.getElementById("newname").focus();
-            return false;
-        } 
-        if ((usuario == "") || (usuario.length < 8)){
+           if ((usuario == "") || (usuario.length < 8)){
             alert("El usuario debe tener mínimo 8 caracteres.");
             document.getElementById("usuario").focus();
             return false;
