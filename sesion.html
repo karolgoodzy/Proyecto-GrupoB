@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +9,33 @@
 </head>
 <body>
     <center>
-        <h1>Iniciar Sesión</h1>
-        <form action="" method="POST" onsubmit="return autenticarInicio();">
-        
-        <img src="soporte/Login.png" alt="Usuario" height="150" witdh="150"><br>
-        <table border="0">
-            <tr>
-                <td>Correo: </td>
-                <td><input type="email" name="correo" id="correo" placeholder="Correo electronico"/><br></td>
-            </tr>
-            <tr>
-                <td>Usuario:</td>
-                <td><input type="text" name="usuario" id="usuario" placeholder="usuario"/></td>
-            </tr>
-            <tr>
-                <td>Contraseña:</td>
-                <td><input type="password" name="contraseña" id="clave" placeholder="contraseña"/></td>
-            </tr>
-            <tr> 
-                <td><a href="recuperarcontrasena.html"><input type="" class="boton" name="recuperarcontrasena" value="Recuperar Contraseña"/></a></td></tr>
-                <br>
-                <tr> 
-                    <td> <input type="submit" class="boton" name="iniciar" value="Iniciar"/>
-                    </td>       
-              <td><a href="index.html"><input type="" class="boton" name="cancelar" value="cancelar"/></a></td></td>
-              
-        </table>
-        
-        </form>
+        <h1 class="titulo">Iniciar Sesión</h1>
+        <div id="display"><br>
+            <form action="" method="POST" onsubmit="return autenticarInicio();">
+                <img src="soporte/Login.png" alt="Usuario" height="150" witdh="150"><br><br>
+                <table border="0">
+                    <tr>
+                        <td>Correo: </td>
+                        <td><input type="email" name="correo" id="correo" placeholder="Correo electronico"/></td>
+                    </tr>
+                    <tr>
+                        <td>Usuario:</td>
+                        <td><input type="text" name="usuario" id="usuario" placeholder="usuario"/></td>
+                    </tr>
+                    <tr>
+                        <td>Contraseña:</td>
+                        <td><input type="password" name="contraseña" id="clave" placeholder="contraseña"/></td>
+                    </tr>
+                    <tr> 
+                        <td><br><a href="recuperarcontrasena.html">¿Olvidaste la Contraseña?</a></td>
+                    </tr>
+                    <tr> 
+                        <td><br><input type="submit" class="boton" name="iniciar" value="Iniciar"/></td>       
+                        <td><br><a href="index.html"><input type="" class="boton" name="cancelar" value="cancelar"/></a></td>
+                    </tr>
+                </table>
+            </form><br>
+        </div>
     </center>
 </body>
 </html>
